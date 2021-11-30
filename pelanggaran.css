@@ -1,0 +1,90 @@
+.navbar {
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+  }
+  
+  .navbar:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+.menu{
+	width: 20%;
+	float: left;
+	background-color: #D5D5D5;
+	height: 40rem;
+}
+.logo{
+	margin: 5% 25%;
+}
+.list{
+	margin: 5px 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+ a:hover{
+	color: rgb(17, 17, 20);
+}
+
+.home{
+	width: 80%;
+	float: left;
+	background-color: rgb(52, 52, 87);
+	height: 40rem;
+}
+
+.title{
+	color: #D5D5D5;
+	margin: 30px 20px;
+}
+dt{
+	font-size: 20px;
+}
+.page{
+	margin-top: 30px;
+	margin-left: 12%;
+	margin-right: 12%;
+	width: 75%;
+	height: 30rem;
+	background-color: #D5D5D5;
+	align-items: center;
+	overflow: auto;
+}
+table, th, td{
+	font-size: 20px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+tr th{
+	text-align: center;
+	background-color: black;
+	color: white;
+	align-items: center;
+}
+.laut{
+	text-align: left;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+}
+td{
+	padding: 5px;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.nLaut{
+	width: 25%;
+	
+}
+.tanggal{
+	width: 25%;
+}
+.pelanggaran{
+	width: 50%;
+}
+
